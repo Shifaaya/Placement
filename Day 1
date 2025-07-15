@@ -1,0 +1,23 @@
+MOD = 10**9 + 7
+
+def calculate_measurement(n, a):
+    original = list(enumerate(a))  
+    
+    sorted_a = sorted(a)
+    
+    last_occurrence = {}
+    for i, val in enumerate(sorted_a):
+        last_occurrence[val] = i  
+
+    measurement = 0
+    for idx, val in original:
+        sanity = idx + last_occurrence[val]
+        measurement = (measurement + sanity) % MOD
+
+    return measurement
+
+if __name__ == "__main__":
+    n = int(input())
+    a = list(map(int, input().split()))
+    result = calculate_measurement(n, a)
+    print(result)
