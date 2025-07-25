@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello Monkey!</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #fff8e1;
+            color: #333;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            font-size: 3em;
+            color: #ff6f00;
+        }
+        .info {
+            max-width: 600px;
+            margin: 20px auto;
+            font-size: 1.2em;
+        }
+        img {
+            width: 300px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            font-size: 1.1em;
+            color: #0077cc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello Monkey! 🐒</h1>
+    <div class="info">
+        You really are a monkey—swinging into every situation with zero chill, tossing opinions like bananas, and somehow making chaos look adorable. Honestly, the jungle couldn’t handle your energy.
+    </div>
+    <img src="https://th.bing.com/th/id/R.b42d077f7608ecfe94a08b5d4213eb66?rik=0hx9eqp4xZnIiQ&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f0%2fb%2f5%2f175341.jpg&ehk=EG20ra9%2fkw8bRtQ5LCMLWYQ4lE4GJ7WoUAw3QT7CP3s%3d&risl=&pid=ImgRaw&r=0" alt="Cute Monkey Sitting Alone">
+    <br>
+    <a href="https://www.shutterstock.com/image-photo/cute-sad-monkey-setting-alone-2346823455" target="_blank">
+        View the image on Shutterstock
+    </a>
+</body>
+</html>
